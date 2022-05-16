@@ -4,9 +4,9 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   line-height: 1.5;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 img {
@@ -22,7 +22,7 @@ section {
   gap: 1rem;
 
   padding-block: 4rem;
-  background: #463866;
+  background: #ffffff;
 }
 
 /* ========== article ========== */
@@ -35,7 +35,7 @@ article {
 }
 
 .content > p {
-  color: #72f1b8;
+  color: #000000;
 }
 
 p + figure {
