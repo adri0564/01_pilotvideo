@@ -9,10 +9,21 @@ body {
   color: rgb(0, 0, 0);
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.span-3 {
+  grid-row: span 3;
 }
 
 /* ========== section ========== */
@@ -28,7 +39,6 @@ section {
 /* ========== article ========== */
 article {
   grid-column: 2;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   gap: 1.5rem;
