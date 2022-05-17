@@ -33,7 +33,7 @@ section {
   gap: 1rem;
 
   padding-block: 4rem;
-  background: #ffffff;
+  background: #000000;
 }
 
 /* ========== article ========== */
@@ -56,11 +56,6 @@ article {
 .content > p {
   margin: 1rem;
   color: #000000;
-}
-
-p + figure {
-  /*Ved siden af */
-  margin-top: 1rem;
 }
 
 /* ========== gallery ========== */
